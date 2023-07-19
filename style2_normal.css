@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-image: url(img/wallpaperbetter.com_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: #6db4da;
+
+  font-size: 3em;
+  /* text-align: center; */
+  position: relative;
+}
+
+/* ゲームの残り秒数が表示されるタイマーの領域 */
+.count {
+  margin: 0;
+  margin-bottom: 40px;
+
+  /* margin-top: 40px; */
+  text-align: center;
+  font-weight: bold;
+}
+
+/* テキストが表示される領域 */
+.wrap {
+  text-align: center;
+  margin-top: 20px;
+  padding: 40px 20px;
+  background-color: #2146ca;
+  font-weight: bold;
+  color: #fff;
+
+  width: 50%;
+  height: 30%;
+  position: absolute;
+  left: 40%;
+  border: solid 3px #2146ca;
+  border-radius: 20px;
+  font-size: 30px;
+}
+
+
+/* スタートボタン */
+.start {
+  position: absolute;
+  bottom: 40px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  left: calc(50% - (137.31px / 2));
+}
+/* 正しくタイプされた場合のテキスト */
+.typed {
+  color: lightgreen;
+}
+
+/* ミスタイプの場合の背景 */
+.mistyped {
+  background-color: red;
+}

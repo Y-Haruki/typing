@@ -1,0 +1,58 @@
+/* タイピングゲーム全体 */
+/* index2.html */
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url(img/ktryil.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-color: #020609;
+}
+
+.poketitle {
+  /* color: #fff; */
+  /* font-weight: bold; */
+  font-size: 3em;
+  margin: 0;
+  margin-left: 40px;
+  padding: 20px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+/* コンテンツ */
+.content {
+
+  width: 40%;
+  /* width: 400px; */
+  height: 400px;
+  /* padding: 20px; */
+  margin: 60px auto 40px auto;
+}
+
+/* コース */
+.course {
+  font-size: 34px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* セレクト */
+.select {
+  
+}
+
+.select > a {
+  display: block;
+  text-decoration: none;
+  color: #ac10d5;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 auto 40px auto;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 200px;
+}
